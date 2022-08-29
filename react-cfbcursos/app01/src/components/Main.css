@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .link {
+    text-decoration: none;
+    color: red;
+}
+
+.container .link:hover {
+    background-color: red;
+    color: white;
+}
+
+.texto {
+    color: #0f0;
+    font-size: 1em;
+}
