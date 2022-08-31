@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Relogio from "./components/Relocio";
 import Numero from "./components/Numero";
 import Leds from "./components/Leds";
+import Lista from "./components/Lista"
 
 function App() {
   const numero = 500;
@@ -72,6 +73,8 @@ function App() {
       <button onClick={() => setLog(!log)}>{log ? 'Logoff' : 'Login'}</button>
       <h1 style={retornaCor(cor)}>CFB Cursos</h1>
       <button onClick={() => mudaCor()}>Mudar Cor</button>
+
+      <Lista />
     </div>
   );
 }
