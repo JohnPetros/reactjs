@@ -6,6 +6,7 @@ import Numero from "./components/Numero";
 import Leds from "./components/Leds";
 import Lista from "./components/Lista"
 import Formulario from "./components/Formulario"
+import StateMultiComponents from "./components/State-Multicomponent"
 
 function App() {
   const numero = 500;
@@ -77,6 +78,7 @@ function App() {
 
       <Lista />
       <Formulario />
+      <StateMultiComponents />
     </div>
   );
 }
