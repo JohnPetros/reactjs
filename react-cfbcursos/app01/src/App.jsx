@@ -5,6 +5,7 @@ import Relogio from "./components/Relocio";
 import Numero from "./components/Numero";
 import Leds from "./components/Leds";
 import Lista from "./components/Lista"
+import Formulario from "./components/Formulario"
 
 function App() {
   const numero = 500;
@@ -75,6 +76,7 @@ function App() {
       <button onClick={() => mudaCor()}>Mudar Cor</button>
 
       <Lista />
+      <Formulario />
     </div>
   );
 }
