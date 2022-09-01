@@ -1,6 +1,6 @@
 import React from "react";
-import LedVermelho from "./imgs/led-vermelho.jpg";
-import LedVerde from "./imgs/led-verde.jpg";
+import LedVermelho from "../imgs/led-vermelho.jpg";
+import LedVerde from "../imgs/led-verde";
 
 export default function Leds(props) {
   return (
