@@ -3,8 +3,12 @@ import React, { useState, useEffect } from "react";
 export default function () {
   const [contagem, setContagem] = useState();
 
-  useEffect(() => console.write("Página carrega"));
-
+  useEffect(
+    () => {
+      console.log("Página carregada")
+      document.title = "Contagem: " + contagem
+  }
+  )
   return (
     <>
       <p>Contagem: {contagem}</p>
