@@ -12,6 +12,7 @@ import StateLift from "./components/StateLift";
 import Contencao from "./Contencao";
 import UseEffect from "./components/UseEffect";
 import LocalStorage from "./components/LocalStorage";
+import ClassComponent from "./components/ClassComponent"
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
       <UseEffect />
 
       <LocalStorage />
+
+      <ClassComponent canal="CFB Cursos" curso="Curso de React"/>
     </div>
   );
 }
