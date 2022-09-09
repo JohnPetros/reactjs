@@ -11,6 +11,7 @@ import StateMultiComponents from "./components/State-Multicomponent";
 import StateLift from "./components/StateLift";
 import Contencao from "./Contencao";
 import UseEffect from "./components/UseEffect";
+import LocalStorage from "./components/LocalStorage";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       <Contencao />
 
       <UseEffect />
+
+      <LocalStorage />
     </div>
   );
 }
