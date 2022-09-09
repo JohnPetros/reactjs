@@ -1,4 +1,5 @@
 import React from "react";
+import Carro from "./carro"
 
 class Classe extends React.Component {
   constructor(props) {
@@ -9,6 +10,8 @@ class Classe extends React.Component {
       <div>
         <h1>Primeiro Componente de Classe</h1>
         <p>Canal: {this.props.canal}</p>
+        <p>Curso: {this.props.curso}</p>
+        <Carro />
       </div>
     )
   }
