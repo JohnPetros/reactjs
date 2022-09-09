@@ -11,7 +11,7 @@ class Classe extends React.Component {
         <h1>Primeiro Componente de Classe</h1>
         <p>Canal: {this.props.canal}</p>
         <p>Curso: {this.props.curso}</p>
-        <Carro />
+        <Carro fator={10}/>
       </div>
     )
   }
