@@ -13,6 +13,7 @@ import Contencao from "./Contencao";
 import UseEffect from "./components/UseEffect";
 import LocalStorage from "./components/LocalStorage";
 import ClassComponent from "./components/ClassComponent"
+import Globais from "./components/Globals";
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
       <LocalStorage />
 
       <ClassComponent canal="CFB Cursos" curso="Curso de React"/>
+
+      <Globais />
     </div>
   );
 }
